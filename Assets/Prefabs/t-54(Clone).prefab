@@ -469,6 +469,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6928350578663160615}
+  - component: {fileID: 169603861}
   m_Layer: 0
   m_Name: Torque
   m_TagString: Untagged
@@ -483,7 +484,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8382275676227861950}
-  m_LocalRotation: {x: 0, y: 0, z: -0.28234148, w: 0.95931405}
+  m_LocalRotation: {x: 0, y: 0, z: 0.015183804, w: 0.9998847}
   m_LocalPosition: {x: 0.7, y: 1.48, z: 4.03}
   m_LocalScale: {x: 1, y: 0.99999976, z: 0.99999976}
   m_Children:
@@ -491,7 +492,21 @@ Transform:
   - {fileID: 2192767602963589095}
   m_Father: {fileID: 215732719947449208}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -32.8}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1.74}
+--- !u!114 &169603861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8382275676227861950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1006ae0e2558f294c9ea5c71b3919b36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  kecepatanRotasi: 20
+  selongsong: {fileID: 8467454024028142226}
 --- !u!1 &8467454024028142226
 GameObject:
   m_ObjectHideFlags: 0
@@ -504,7 +519,7 @@ GameObject:
   - component: {fileID: 522925123930719601}
   - component: {fileID: 6643583039291274733}
   m_Layer: 0
-  m_Name: Object_11
+  m_Name: selongsong
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
